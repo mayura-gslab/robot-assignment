@@ -9,7 +9,7 @@ To run the test cases from the root folder -
 
 
 
-Sample Output based on below assumptions: 
+Sample Output based on below assumptions: (Please check the sample output in raw mode)
 
 - The robot has a battery big enough to clean for 60 seconds in one charge.
 - The battery charge from 0 to 100% takes 30 seconds.
