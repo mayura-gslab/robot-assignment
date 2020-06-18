@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
-require './src/HardFloor.php';
+use src\HardFloor;
 
 final class HardFloorTest extends TestCase
 {

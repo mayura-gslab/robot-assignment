@@ -1,4 +1,5 @@
 <?php
+namespace src;
 class Utility {
   /**
    * The SetInterval method
@@ -29,33 +30,50 @@ class Utility {
   /**
    * To check if require arguments are passed
    *
-   * @param [type] $argv
+   * @param string $floor
+   * @param string $area
    * @return void
    */
-  public static function areRequiredArgumentsPassed($argv) {
-    if (isset($argv[2]) && strpos(strtok($argv[2], '='), 'floor') !== false && isset($argv[3]) && strpos(strtok($argv[3], '='), 'area') !== false) {
+  public static function areRequiredArgumentsPassed(string $floor, string $area) {
+    
+    if (isset($floor) && strpos(strtok($floor, '='), 'floor') !== false &&
+    isset($area) && strpos(strtok($area, '='), 'area') !== false
+    ) {
       return true;
     }
     return false;
   }
 
   /**
+   * To validate the given values for arguments
+   *
+   * @param string $floor
+   * @param string $area
+   * @return void
+   */
+  public static function validateArguments(string $floor, string $area) {
+    $validFloorValues = ['hard', 'carpet'];
+    return in_array(substr($floor, strpos($floor, "=") + 1), $validFloorValues) &&
+    is_int((int)($area));
+  }
+
+  /**
    * To check if hard floor is selected
    *
-   * @param [type] $argv
+   * @param string $argv
    * @return boolean
    */
-  public static function isHardFloorSelected($argv) {
-    return substr($argv[2], strpos($argv[2], "=") + 1) == 'hard';
+  public static function isHardFloorSelected(string $floor) {
+    return substr($floor, strpos($floor, "=") + 1) == 'hard';
   }
   
   /**
    * To get the value of area argument
    *
-   * @param [type] $argv
+   * @param string $argv
    * @return boolean
    */
-  public static function getTheValueOfArea($argv) {
-    return substr($argv[3], strpos($argv[3], "=") + 1);
+  public static function getTheValueOfArea(string $area) {
+    return substr($area, strpos($area, "=") + 1);
   }
 }

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
-require './src/Battery.php';
+use src\Battery;
 
 final class BatteryTest extends TestCase
 {
@@ -52,9 +52,9 @@ final class BatteryTest extends TestCase
      *
      * @return void
      */
-    public function testStartCleaningTheApartment(): void
+    public function testStartBatteryUsage(): void
     {
-      $this->battery->startCleaningTheApartment();
+      $this->battery->startBatteryUsage();
       $this->assertEquals(
         99,
         $this->battery->getBatteryPercentage()

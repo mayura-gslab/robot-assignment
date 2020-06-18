@@ -12,6 +12,10 @@ class ComposerStaticInitc5876e92f86859ca4aefd46c8b5105a5
     );
 
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'src\\' => 4,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -36,6 +40,10 @@ class ComposerStaticInitc5876e92f86859ca4aefd46c8b5105a5
     );
 
     public static $prefixDirsPsr4 = array (
+        'src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -65,9 +73,6 @@ class ComposerStaticInitc5876e92f86859ca4aefd46c8b5105a5
     );
 
     public static $classMap = array (
-        'Apartment' => __DIR__ . '/../..' . '/src/Apartment.php',
-        'Battery' => __DIR__ . '/../..' . '/src/Battery.php',
-        'CarpetFloor' => __DIR__ . '/../..' . '/src/CarpetFloor.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -97,8 +102,6 @@ class ComposerStaticInitc5876e92f86859ca4aefd46c8b5105a5
         'Doctrine\\Instantiator\\Exception\\UnexpectedValueException' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php',
         'Doctrine\\Instantiator\\Instantiator' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php',
         'Doctrine\\Instantiator\\InstantiatorInterface' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/InstantiatorInterface.php',
-        'Email' => __DIR__ . '/../..' . '/src/Email.php',
-        'HardFloor' => __DIR__ . '/../..' . '/src/HardFloor.php',
         'Help' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Help.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
@@ -630,6 +633,7 @@ class ComposerStaticInitc5876e92f86859ca4aefd46c8b5105a5
         'Prophecy\\Prophet' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Prophet.php',
         'Prophecy\\Util\\ExportUtil' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Util/ExportUtil.php',
         'Prophecy\\Util\\StringUtil' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Util/StringUtil.php',
+        'Robot' => __DIR__ . '/../..' . '/src/robot.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',
@@ -740,7 +744,6 @@ class ComposerStaticInitc5876e92f86859ca4aefd46c8b5105a5
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
-        'Utility' => __DIR__ . '/../..' . '/src/Utility.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Webmozart\\Assert\\Mixin' => __DIR__ . '/..' . '/webmozart/assert/src/Mixin.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
@@ -815,6 +818,11 @@ class ComposerStaticInitc5876e92f86859ca4aefd46c8b5105a5
         'phpDocumentor\\Reflection\\Types\\String_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/String_.php',
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+        'src\\Apartment' => __DIR__ . '/../..' . '/src/Apartment.php',
+        'src\\Battery' => __DIR__ . '/../..' . '/src/Battery.php',
+        'src\\CarpetFloor' => __DIR__ . '/../..' . '/src/CarpetFloor.php',
+        'src\\HardFloor' => __DIR__ . '/../..' . '/src/HardFloor.php',
+        'src\\Utility' => __DIR__ . '/../..' . '/src/Utility.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

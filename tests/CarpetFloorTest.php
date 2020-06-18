@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
-require './src/CarpetFloor.php';
+use src\CarpetFloor;
 
 final class CarpetFloorTest extends TestCase
 {

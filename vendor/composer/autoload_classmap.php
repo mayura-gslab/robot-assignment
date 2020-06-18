@@ -6,9 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Apartment' => $baseDir . '/src/Apartment.php',
-    'Battery' => $baseDir . '/src/Battery.php',
-    'CarpetFloor' => $baseDir . '/src/CarpetFloor.php',
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
     'DeepCopy\\Exception\\PropertyException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -38,8 +35,6 @@ return array(
     'Doctrine\\Instantiator\\Exception\\UnexpectedValueException' => $vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php',
     'Doctrine\\Instantiator\\Instantiator' => $vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php',
     'Doctrine\\Instantiator\\InstantiatorInterface' => $vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator/InstantiatorInterface.php',
-    'Email' => $baseDir . '/src/Email.php',
-    'HardFloor' => $baseDir . '/src/HardFloor.php',
     'Help' => $vendorDir . '/phpunit/phpunit/src/Util/Help.php',
     'PHPUnit\\Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit\\Framework\\Assert' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert.php',
@@ -571,6 +566,7 @@ return array(
     'Prophecy\\Prophet' => $vendorDir . '/phpspec/prophecy/src/Prophecy/Prophet.php',
     'Prophecy\\Util\\ExportUtil' => $vendorDir . '/phpspec/prophecy/src/Prophecy/Util/ExportUtil.php',
     'Prophecy\\Util\\StringUtil' => $vendorDir . '/phpspec/prophecy/src/Prophecy/Util/StringUtil.php',
+    'Robot' => $baseDir . '/src/robot.php',
     'SebastianBergmann\\CodeCoverage\\CodeCoverage' => $vendorDir . '/phpunit/php-code-coverage/src/CodeCoverage.php',
     'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => $vendorDir . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
     'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => $vendorDir . '/phpunit/php-code-coverage/src/Driver/Driver.php',
@@ -681,7 +677,6 @@ return array(
     'TheSeer\\Tokenizer\\TokenCollectionException' => $vendorDir . '/theseer/tokenizer/src/TokenCollectionException.php',
     'TheSeer\\Tokenizer\\Tokenizer' => $vendorDir . '/theseer/tokenizer/src/Tokenizer.php',
     'TheSeer\\Tokenizer\\XMLSerializer' => $vendorDir . '/theseer/tokenizer/src/XMLSerializer.php',
-    'Utility' => $baseDir . '/src/Utility.php',
     'Webmozart\\Assert\\Assert' => $vendorDir . '/webmozart/assert/src/Assert.php',
     'Webmozart\\Assert\\Mixin' => $vendorDir . '/webmozart/assert/src/Mixin.php',
     'phpDocumentor\\Reflection\\DocBlock' => $vendorDir . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
@@ -756,4 +751,9 @@ return array(
     'phpDocumentor\\Reflection\\Types\\String_' => $vendorDir . '/phpdocumentor/type-resolver/src/Types/String_.php',
     'phpDocumentor\\Reflection\\Types\\This' => $vendorDir . '/phpdocumentor/type-resolver/src/Types/This.php',
     'phpDocumentor\\Reflection\\Types\\Void_' => $vendorDir . '/phpdocumentor/type-resolver/src/Types/Void_.php',
+    'src\\Apartment' => $baseDir . '/src/Apartment.php',
+    'src\\Battery' => $baseDir . '/src/Battery.php',
+    'src\\CarpetFloor' => $baseDir . '/src/CarpetFloor.php',
+    'src\\HardFloor' => $baseDir . '/src/HardFloor.php',
+    'src\\Utility' => $baseDir . '/src/Utility.php',
 );

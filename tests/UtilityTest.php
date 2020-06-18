@@ -1,13 +1,16 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
+use src\Utility;
 
 final class UtilityTest extends TestCase
 {
-    public $args = [];
+    public $floor = '';
+    public $area = '';
 
     public function setUp() : void
     {
-      $this->args = ["php robot.php", "clean", "--floor=hard", "--area=80"];
+      $this->floor = "--floor=hard";
+      $this->area = "--area=80";
     }
 
     /**
@@ -25,7 +28,7 @@ final class UtilityTest extends TestCase
      * @return void
      */
     public function testAreRequiredArgumentsPassed(): void {
-      $this->assertTrue(Utility::areRequiredArgumentsPassed($this->args));
+      $this->assertTrue(Utility::areRequiredArgumentsPassed($this->floor, $this->area));
     }
 
     /**
@@ -34,7 +37,7 @@ final class UtilityTest extends TestCase
      * @return void
      */
     public function testIsHardFloorSelected(): void {
-      $this->assertTrue(Utility::isHardFloorSelected($this->args));
+      $this->assertTrue(Utility::isHardFloorSelected($this->floor));
     }
 
     /**
@@ -43,6 +46,15 @@ final class UtilityTest extends TestCase
      * @return void
      */
     public function testGetTheValueOfArea(): void {
-      $this->assertEquals(80, Utility::getTheValueOfArea($this->args));
+      $this->assertEquals(80, Utility::getTheValueOfArea($this->area));
+    }
+    
+    /**
+     * To test validateArguments function
+     *
+     * @return void
+     */
+    public function testValidateArguments(): void {
+      $this->assertTrue(Utility::validateArguments($this->floor, $this->area));
     }
 }
