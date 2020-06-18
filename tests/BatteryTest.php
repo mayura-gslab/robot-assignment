@@ -32,22 +32,6 @@ final class BatteryTest extends TestCase
     }
 
     /**
-     * To test that default time spent for the battery usage is zero
-     *
-     * @return void
-     */
-    public function testGetTotalTimeSpent(): void
-    {
-      $this->assertEquals(
-        0,
-        $this->battery->getTotalTimeSpent()
-      );
-      $this->assertIsInt(
-        $this->battery->getTotalTimeSpent()
-      );
-    }
-
-    /**
      * To test that after started cleaning the apartment battery is reduced by 1
      *
      * @return void
@@ -56,7 +40,7 @@ final class BatteryTest extends TestCase
     {
       $this->battery->startBatteryUsage();
       $this->assertEquals(
-        99,
+        98,
         $this->battery->getBatteryPercentage()
       );
     }
