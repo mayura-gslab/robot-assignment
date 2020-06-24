@@ -16,7 +16,7 @@ Sample Output based on below assumptions: (Please check the sample output in raw
 
 __________________________________________________________________________________________________
 
-1. # For hard floor having area 65:- (The robot can clean 1 m2 of hard floor in 1 second.)
+ # For hard floor having area 65:- (The robot can clean 1 m2 of hard floor in 1 second.)
 
 	PS C:\Projects\finalrobot\robot-assignment\src> php robot.php clean --floor=hard --area=65
 
@@ -159,7 +159,7 @@ ________________________________________________________________________________
 	PS C:\Projects\finalrobot\robot-assignment\src>
 ____________________________________________________________________________________________
 
-2. For carpet floor having area 65 - (The robot can clean 1 m2 of carpet in 2 seconds.)
+ # For carpet floor having area 65 - (The robot can clean 1 m2 of carpet in 2 seconds.)
 
 	PS C:\Projects\finalrobot\robot-assignment\src> php robot.php clean --floor=carpet --area=65
 
