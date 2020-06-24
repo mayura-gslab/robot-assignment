@@ -22,12 +22,12 @@ The robot is cleaning the apartment, which has 65 m square hard floor.
 The battery is fully charged now.
 
 The area covered till now is: 1 m square. The Battery level is: 98%
+
 The area covered till now is: 2 m square. The Battery level is: 96%
+
 The area covered till now is: 3 m square. The Battery level is: 95%
 The area covered till now is: 4 m square. The Battery level is: 93%
-
 The area covered till now is: 5 m square. The Battery level is: 92%
-
 The area covered till now is: 6 m square. The Battery level is: 90%
 
 The area covered till now is: 7 m square. The Battery level is: 88%
