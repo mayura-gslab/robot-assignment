@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
-use src\Utility;
+use MyRobot\Utility;
 
 final class UtilityTest extends TestCase
 {

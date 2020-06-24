@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
-use src\HardFloor;
+use MyRobot\Floors\HardFloor;
 
 final class HardFloorTest extends TestCase
 {

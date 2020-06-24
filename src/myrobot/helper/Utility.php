@@ -1,5 +1,5 @@
 <?php
-namespace src;
+namespace MyRobot\Helper;
 class Utility {
   /**
    * The SetInterval method

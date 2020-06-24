@@ -1,5 +1,5 @@
 <?php
-namespace src;
+namespace MyRobot;
 class Battery {
 
   const TIME_TO_CHARGE_THE_BATTERY = 30; // (30 seconds) The time required for charging the battery to 100%

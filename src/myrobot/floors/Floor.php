@@ -1,5 +1,6 @@
 <?php
-namespace src;
+namespace MyRobot\Floors;
+use MyRobot\Battery;
 
 class Floor {
   const BATTERY_EXHAUST_VALUE = 0;

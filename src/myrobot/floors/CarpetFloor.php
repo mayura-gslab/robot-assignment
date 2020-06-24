@@ -1,9 +1,10 @@
 <?php
-namespace src;
-use src\Apartment;
-use src\Utility;
+namespace MyRobot\Floors;
+use MyRobot\Cleanable;
+use MyRobot\Helper\Utility;
+use MyRobot\Floors\Floor;
 
-class CarpetFloor extends Floor implements Apartment {
+class CarpetFloor extends Floor implements Cleanable {
 
   const TIME_BELOW_BATTERY_CAPACITY = 40; // As battery capacity is 60 seconds and intializing it to 100 in battey class.
   private $count = 0;

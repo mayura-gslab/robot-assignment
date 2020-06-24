@@ -1,10 +1,10 @@
 <?php
-namespace src;
-use src\Apartment;
-use src\Utility;
-use src\Floor;
+namespace MyRobot\Floors;
+use MyRobot\Cleanable;
+use MyRobot\Helper\Utility;
+use MyRobot\Floors\Floor;
 
-class HardFloor extends Floor implements Apartment{
+class HardFloor extends Floor implements Cleanable{
 
   public function __construct(int $areaValue) {
     parent::__construct($areaValue);
