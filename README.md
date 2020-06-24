@@ -21,8 +21,9 @@ PS C:\Projects\finalrobot\robot-assignment\src> php robot.php clean --floor=hard
 The robot is cleaning the apartment, which has 65 m square hard floor.
 The battery is fully charged now.
 
-The area covered till now is: 1 m square. The Battery level is: 98%	
-The area covered till now is: 2 m square. The Battery level is: 96%	
+The area covered till now is: 1 m square. The Battery level is: 98%
+	
+The area covered till now is: 2 m square. The Battery level is: 96%
 The area covered till now is: 3 m square. The Battery level is: 95%	
 The area covered till now is: 4 m square. The Battery level is: 93%	
 The area covered till now is: 5 m square. The Battery level is: 92%	
@@ -91,8 +92,6 @@ The area covered till now is: 64 m square. The Battery level is: 96%
 The area covered till now is: 65 m square. The Battery level is: 95%	
 The clean up has been done! Ending the process!
 PS C:\Projects\finalrobot\robot-assignment\src>
-PS C:\Projects\finalrobot\robot-assignment\src>
-
 2. For carpet floor having area 70 - (The robot can clean 1 m2 of carpet in 2 seconds.)
 
 PS C:\Projects\finalrobot\robot-assignment\src> php robot.php clean --floor=carpet --area=70
