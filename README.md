@@ -1,4 +1,4 @@
-# robot-assignment
+# Robot-Assignment
 
 To run a script - 
 1. Go to src folder on the command line.
