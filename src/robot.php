@@ -2,7 +2,7 @@
   require "../vendor/autoload.php";
   use MyRobot\Robot;
   /**
-   * To call the required method.
+   * To call the Robot - clean method.
    * $argv - To get the command line arguments
    */
   $robot = new Robot();
