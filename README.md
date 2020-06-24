@@ -14,6 +14,8 @@ Sample Output based on below assumptions: (Please check the sample output in raw
 - The robot has a battery big enough to clean for 60 seconds in one charge.
 - The battery charge from 0 to 100% takes 30 seconds.
 
+__________________________________________________________________________________________________
+
 1. For hard floor having area 65:- (The robot can clean 1 m2 of hard floor in 1 second.)
 
 	PS C:\Projects\finalrobot\robot-assignment\src> php robot.php clean --floor=hard --area=65
@@ -155,6 +157,7 @@ Sample Output based on below assumptions: (Please check the sample output in raw
 
 	The clean up has been done! Ending the process!
 	PS C:\Projects\finalrobot\robot-assignment\src>
+____________________________________________________________________________________________
 
 2. For carpet floor having area 70 - (The robot can clean 1 m2 of carpet in 2 seconds.)
 
