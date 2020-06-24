@@ -1,9 +1,7 @@
 {
   "autoload": {
       "psr-4": {
-        "MyRobot\\": "src/myrobot/",
-        "MyRobot\\Floors\\": "src/myrobot/floors/",
-        "MyRobot\\Helper\\": "src/myrobot/helper/"
+        "MyRobot\\": "src/myrobot/"
       }
   },
   "require-dev": {

@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit55f0e68c73992e8dab92f6ac38539b4f
+class ComposerStaticInit592c647b6725c27714b22c9b9eb61066
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -30,8 +30,6 @@ class ComposerStaticInit55f0e68c73992e8dab92f6ac38539b4f
         ),
         'M' => 
         array (
-            'MyRobot\\Helper\\' => 15,
-            'MyRobot\\Floors\\' => 15,
             'MyRobot\\' => 8,
         ),
         'D' => 
@@ -59,14 +57,6 @@ class ComposerStaticInit55f0e68c73992e8dab92f6ac38539b4f
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
-        ),
-        'MyRobot\\Helper\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src/myrobot/helper',
-        ),
-        'MyRobot\\Floors\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src/myrobot/floors',
         ),
         'MyRobot\\' => 
         array (
@@ -639,9 +629,9 @@ class ComposerStaticInit55f0e68c73992e8dab92f6ac38539b4f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit55f0e68c73992e8dab92f6ac38539b4f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit55f0e68c73992e8dab92f6ac38539b4f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit55f0e68c73992e8dab92f6ac38539b4f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit592c647b6725c27714b22c9b9eb61066::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit592c647b6725c27714b22c9b9eb61066::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit592c647b6725c27714b22c9b9eb61066::$classMap;
 
         }, null, ClassLoader::class);
     }
